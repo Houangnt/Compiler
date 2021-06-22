@@ -1,0 +1,15 @@
+float addNumber(float num1, float num2) {
+    return num1 + num2;   
+}
+int main() { 
+    boolean checkSum = false;   
+    putStringLn("hello");
+    float resultNumber = addNumber(3.14, 2.3E+4);
+    putFloatLn(resultNumber);
+
+    for (int i = 0; i < 100; i=i+1) {
+        if (i % 13 != 0) {
+            putIntLn(i);
+        }
+    }
+}
