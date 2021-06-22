@@ -1,1 +1,2 @@
-# Compiler
+# Run project
+  make start-project
